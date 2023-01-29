@@ -1,0 +1,22 @@
+INICIO DE SESIÓN
+usuario: arbrom@yahoo.es
+contraseña: 03042001
+
+INSTRUCCIONES
+- Para borrar una foto completamente se deberá ir al "perfil" de la foto y darle a la X. Si solo se quiere borrar la planta de una localización específica, vale con ir a la página de "Plantas" y clickar en la X que aparece al lado de la planta dentro de la localización deseada
+
+- Para borrar una localización es necesario que no contenga plantas (basta con borrar la planta en esa localización, no hace falta borrar la planta por completo)
+
+- Para la foto principal (miniatura) siempre se coge la primera foto del apartado "Fotos" de la planta (que salvo en caso de error, es la que se introduce al añadir por primera vez la planta). Para cambiar la miniatura, habría que borrar fotos del apartado "Fotos" hasta que la foto deseada quede en primer lugar
+
+MEJORAS
+- Que no se pueda meter direccion con nombre ' ' (espacio en blanco)
+- Que en caso de error salga un toast
+-- Indicar formatos validos de imagen o error en su defecto
+--- Que se cierren los modales al clickar fuera del modal
+- Cambiar miniatura de una manera sencilla
+--- Implementar borrado de imagenes de la carpeta cuando se borra una foto por completo
+--- Meter confirmaciones antes de borrar
+--- Al borrar por una planta desde la localización, cuando solo tiene 1 localización, tiene que borrar la planta entera pq si no no se puede acceder a ella para borrarla por completo y el nombre sigue guardado en la BD
+- Que no haya 2 plantas que puedan tener el mismo nombre en español
+- Filtrado por lugar

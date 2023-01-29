@@ -1,0 +1,201 @@
+/* --------- css para el modal ------------- */
+/* ---  css cogido de https://www.w3schools.com/howto/howto_css_modals.asp ----- */
+
+#abrirModalLocButton{
+    float: right;
+    margin-right: 10em;
+    height: 3em;
+    width: 10em;
+    font-size: 1em;
+}
+
+
+#abrirModalButton {
+    float: right;
+    margin-right: 7em;
+    height: 3em;
+    width: 10em;
+    font-size: 1em;
+}
+
+.greenButton{
+    color: rgb(255, 255, 255);
+    background-color: darkgreen;
+    border-color: darkgreen;
+    border-radius: 0.3em;
+}
+
+.greenButton:hover{
+    cursor: pointer;
+    background-color: rgb(0, 85, 0);
+}
+
+.greenButton:focus{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+  
+
+.modal-contentPropio {
+    background-color: #fefefe;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50em;
+}
+  
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} */
+
+/* ------------------------------------------------------------ */
+
+/* #formLoc{
+    float: right;
+} */
+
+.rellenoModalLoc{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#inputLoc{
+    width: 14em;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+#anadirLocButton{
+    /* height: 3.5em; */
+    width: 5em;
+    /* font-size: 1.5em; */
+    margin-left: 2em;
+}
+
+#labelLoc{
+    display: block;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+}
+
+#anadirPlantaButton{
+    width: 5em;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.centrado-vertical{
+    margin-top: 15em;
+}
+
+#formBorrarLoc{
+    display: inline;
+}
+
+.divPrincipal{
+    margin-top: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+
+.divPlanta{
+    display: inline-block;
+    width: 20%;
+    background-color: rgba(170, 170, 170, 0.352);
+    margin: 0.5em;
+    text-align: center;
+    padding-top: 0.8em;
+    border-radius: 0.5em;
+    
+}
+
+.nombreEsp{
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+    display: inline-block;
+}
+
+.borrarButton{
+    border-radius: 0.5em;
+    border-color: transparent;
+    background-color:rgba(0, 100, 0, 0.264)
+}
+
+.borrarButton:hover{
+    cursor: pointer;
+    background-color:rgba(0, 100, 0, 0.472)
+}
+
+.borrarButton:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.borrarPlantaForm {
+    display: inline-block;
+}
+
+.nombreLatin{
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 0.3em;
+}
+
+.imgPlanta{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 15em;
+  border-radius: 0.5em;
+ 
+    object-fit: cover;
+}
+
+.myLink{
+    text-decoration: none;  /* sino, sale un subrayado raro al lado de los elementos qu ehacen de link (por el espaciado del codigo del html) */
+}
+
+.myLink:link{
+    color:black;
+}
+
+.myLink:visited{
+    color:black;
+} 
+
+#modalAnadirLoc{
+    text-align: center;
+}
+
+.nombreLoc{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

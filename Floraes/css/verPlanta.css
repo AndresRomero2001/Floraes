@@ -1,0 +1,360 @@
+
+.cuerpoPlanta{
+    width: 80%;
+    /* background-color: aquamarine; */
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+#modificarModalButton{
+    /* float: right;
+    margin-right: 15%; */
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+    background-color: rgba(15, 9, 9, 0.532);/* el cuarto parametro es la opcidad */
+    border-radius: 10px;
+    border-color: transparent;
+    /* font-size: x-large; */
+    font-size: 1.75em;
+    top: 21em;
+    left: 15em;
+}
+
+#modificarModalButton:hover{
+    cursor: pointer;
+    background-color: rgba(15, 9, 9, 0.646);/* el cuarto parametro es la opcidad */
+}
+
+#modificarModalButton:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#nombreEs{
+    display: inline-block;
+    font-size: 3em;
+    margin-right: 0.75em;
+    margin-top: 1em;
+}
+
+.filaInicial{
+    margin-top: 1%;
+    display:flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.fotoCol{
+    /* width: 45%; */
+    /* background-color: rgb(0, 255, 157); */
+    display: inline;
+    /* margin-left: 15%; */
+    padding-left: 15%;
+}
+
+.imgPlanta {
+    height: 25em;
+    width: 20em;
+    object-fit: cover;
+    border-radius: 0.4em;
+}
+
+.nombreCol{
+    width: 50%;
+    /* background-color: blueviolet; */
+    display: inline;
+    text-align: left;
+    margin-left: 4em;
+}
+
+.nombre::first-letter{
+    text-transform:capitalize
+}
+
+.sepVertical{
+    margin-top: 1.6em;
+    font-size: 2em;
+}
+
+div.nombreLatTam{
+    margin-top: 7%;
+    margin-left: 10%;
+    display: flex;
+    justify-content:space-between
+}
+
+div.nombreLa{
+    width: 50%;
+    text-align: left;
+}
+
+div.tam{
+    width: 50%;
+    text-align: left;
+}
+
+div.locFlorac{
+    margin-top: 3%;
+    margin-left: 10%;
+    display: flex;
+    justify-content:space-between
+}
+
+div.localizacion{
+    width: 50%;
+    text-align: left;
+    padding-right: 2em;
+}
+
+div.floracion{
+    width: 50%;
+    text-align: left;
+}
+
+div.otrosNombres{
+    margin-top: 3%;
+}
+
+div.alignLeft{
+    text-align: left;
+}
+
+.negrita{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.textoInline{
+    display: inline;
+}
+
+div.textosLargos{
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 60%;
+}
+
+
+
+#fotosModalButton{
+    /* padding-top: 0;
+    padding-bottom: 5px; */
+    height: 3em;
+    width: 3em;
+    /* background-color: rgba(168, 81, 250, 0.556); */
+    background-color: rgba(15, 9, 9, 0.532);/* el cuarto parametro es la opcidad */
+    border-radius: 0.5em;
+    border: 0;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    margin-top: 5em;
+}
+
+#fotosModalButton:hover {
+    background-color: rgba(168, 81, 250, 0.815);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#cuerpoFotos{
+    text-align: left;
+}
+
+#tituloFotos{
+    display: inline;
+    margin-top: 0;
+    margin-left: 15%;
+}
+
+div#divFotos{
+    display: flex;
+    text-align: left;
+    margin-left: 15%;
+    /* justify-content: space-between; */
+}
+
+.fotos{
+    display: block;
+}
+
+.formBorrarFoto{
+    display: inline-block;
+}
+
+.inlineBlock{
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+.centeredDiv{
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+.leftMargin{
+    margin-left: 2em;
+}
+
+.foto{
+    height: 20em;
+    width: 16em;
+    object-fit: cover;
+    border-radius: 0.4em;
+    /* margin-bottom: 2em; */
+    /* margin-left: 5em; */
+}
+
+.borrarFotoButton{
+    height: 2em;
+    width: 3em;
+    border-radius: 0.4em;
+    border: 0;
+    background-color: rgba(255, 0, 0, 0.438);
+}
+
+.borrarFotoButton:hover,
+.borrarFotoButton:focus {
+    background-color: rgba(255, 0, 0, 0.541);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tituloComentarios{
+    margin-top: 5%;
+}
+
+#borrarPlantaForm {
+    display: inline-block;
+}
+
+button#borrarPlantaTotal {
+    background-color: rgba(15, 9, 9, 0.532);/* el cuarto parametro es la opcidad */
+    border-radius: 10px;
+    border-color: transparent;
+    /* font-size: x-large; */
+    font-size: 1.75em;
+    top: 20em;
+    left: 14em;
+    padding: 0;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+button#borrarPlantaTotal:hover{
+    cursor: pointer;
+    background-color: rgba(15, 9, 9, 0.646);/* el cuarto parametro es la opcidad */
+}
+
+button#borrarPlantaTotal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.divComentario
+{
+    background-color: rgba(53, 159, 94, 0.652); 
+    border-radius: 1em;
+    margin-left: 1em; 
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+    padding: 0.1em;
+}
+.divComentario h3{
+    margin: 0.5em;
+   /*  display: inline-block; */
+   float: left;
+}
+.divComentario p{
+    clear: both;
+    display: block;
+    margin: 0.5em;
+}
+
+.divComentario textarea{
+margin-left: 1em;
+margin-bottom: 1em;
+width: 80%;
+}
+
+.botonComen{
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 3em;
+    font-size: 1.2em;
+    border-radius: 1em;
+    background-color: rgb(234, 255, 227);
+    cursor: pointer;
+ 
+}
+.botonBorrarComenForm
+{
+    /* display: inline-block; */
+    float:right;
+}
+.botonBorrarComen{
+   /*  display: inline-block; */
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 1.3em;
+    margin-right: 0.5em;
+    cursor: pointer;
+    float: right;
+    color:rgb(243, 31, 31)
+   
+
+ /*    float: right;
+   margin-bottom: 10em; */
+   /* clear: right; */
+   /*  width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px; */
+ 
+}
+
+
+/* --------- css para el modal ------------- */
+/* ---  css cogido de https://www.w3schools.com/howto/howto_css_modals.asp ----- */
+
+/* .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+  
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50em;
+}
+  
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} */
