@@ -1,2 +1,2 @@
 # Floraes
-Web en host local con SQL, PHP, HTML y CSS y Boostrap
+Web en host local con SQL, PHP, JS, HTML y CSS y Boostrap
